@@ -1,0 +1,1 @@
+function runAnalysis(){let m=+mobility.value,e=+electricity.value,d=+diet.value;let t=(m+e+d).toFixed(1);score.innerText='Score: '+t;progress.value=t;let h=JSON.parse(localStorage.getItem('history')||'[]');h.push(t);localStorage.setItem('history',JSON.stringify(h));history.innerHTML=h.map(x=>'<li>'+x+'</li>').join('');}
