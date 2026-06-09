@@ -1,0 +1,13 @@
+{
+  "name": "ecopulse-carbon-tracker",
+  "version": "1.0.0",
+  "description": "Advanced Carbon Footprint Awareness Platform",
+  "main": "index.html",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
